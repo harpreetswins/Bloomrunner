@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+   rabbitmq:
+        image: rabbitmq:3-management-alpine
+   bloomdb:
+        image: ${DOCKER_REGISTRY-}bloomrunnerdb
+        build:
+            context: .
+            dockerfile: src/db/Dockerfile
+
+   webgateway.api:
+        image: ${DOCKER_REGISTRY-}webgateway
+        build:
+            context: .
+            dockerfile: src/Gateways/WebGateway/Dockerfile
+
+   authservice.api:
+        image: ${DOCKER_REGISTRY-}authservice
+        build:
+            context: .
+            dockerfile: src/Services/AuthServer/Solution/Dockerfile

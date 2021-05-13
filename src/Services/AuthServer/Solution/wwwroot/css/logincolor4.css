@@ -1,0 +1,57 @@
+.btn-primary {
+    color: #fff!important;
+	background: linear-gradient(to right, #30c9ad 0%, #30c9ad 43%, #00a690 64%, #00a690 100%);
+	border-color: transparent!important;
+	padding: 10px 15px;
+}
+
+.login .login-aside {
+	width: 100%;
+	max-width: 400px;
+	background-color:#00a691;
+	box-shadow: 0px 0px 40px rgba(177, 187, 208, 0.15);
+	position: relative;
+}
+
+.login .create-account .dashboard-create-account-btn {
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 15px;
+    background-color: #00a691!important;
+    color: #fff !important;
+    border: 1px solid #00a691;
+	border-radius: 3px;
+	text-decoration: none;
+	margin: 12px 0 0 0;
+}
+.login .create-account .dashboard-create-account-btn:hover {
+    background-color: #00a691!important;
+	color: #fff !important;
+	border: 1px solid #00a691;
+}
+.login .copyright ul li  a{
+color:#00a691!important;
+}
+.login .login-form .form-group .checkbox-inline .checkbox input:checked ~ span {
+	background-color:#00a691;
+	border-color: #00a691;
+}
+.login .login-form .form-group .checkbox-inline .checkbox input:checked ~ span:after {
+	border-color: #fff;
+}
+
+.btn-outline-primary{
+	color: #00a691;
+    border-color: #00a691;
+}
+.btn-outline-primary:hover {
+	color: #fff;
+    border-color: #00a691;
+	background: linear-gradient(to right, #30c9ad 0%, #30c9ad 43%, #00a690 64%, #00a690 100%);
+}
+
+.login .loader i {
+	color: #00a691;
+	font-size: 106px;
+}

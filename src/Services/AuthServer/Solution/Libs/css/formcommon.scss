@@ -1,0 +1,192 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background: #EEF0F8;
+}
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #3F4254;
+}
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px !important;
+    font-weight: 400;
+    font-family: Poppins, Helvetica, "sans-serif";
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* Scss Document */
+
+a {
+    color: #89699b;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #89699b;
+    border-color: #89699b;
+	&:hover{
+	color: #FFFFFF;
+    background-color: #9e85ad;
+    border-color: #9e85ad;	
+	}
+	&:focus{
+	color: #FFFFFF;
+    background-color: #9e85ad;
+    border-color: #9e85ad;	
+	box-shadow:none!important;
+	}
+	&:active{
+	color: #FFFFFF!important;
+    background-color: #9e85ad!important;
+    border-color: #9e85ad!important;	
+	box-shadow:none!important;
+	}
+}
+.btn-outline-primary{
+    color: #89699b;
+    background-color:transparent;
+    border-color: #89699b;
+	&:hover{
+	color: #FFFFFF;
+    background-color: #89699b;
+    border-color: #89699b;	
+	}
+	&:focus{
+	color: #FFFFFF;
+    background-color: #89699b;
+    border-color: #89699b;	
+	box-shadow:none!important;
+	}
+	&:active{
+	color: #FFFFFF!important;
+    background-color: #89699b!important;
+    border-color: #89699b!important;
+	box-shadow:none!important;
+	}
+}
+.form-control{
+	&:focus{
+	  outline:none;
+	   border:none;
+	   box-shadow:none;
+	}
+}
+
+.flex-root {
+    -webkit-box-flex: 1;
+    flex: 1;
+    -ms-flex: 1 0 0px;
+}
+.flex-column-fluid {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.p-7 {
+    padding: 1.75rem !important;
+}
+.flex-lg-row-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 1 0 auto;
+}
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.flex-row-fluid {
+    -webkit-box-flex: 1;
+    flex: 1 auto;
+    -ms-flex: 1 0 0px;
+    min-width: 0;
+}
+.max-h-75px {
+    max-height: 75px !important;
+}
+.width-320{
+ width:320px;
+	@media (max-width:991px){
+	 width:230px;
+	}
+}
+.mb-15, .my-15 {
+    margin-bottom: 3.75rem !important;
+}
+.mb-lg-20, .my-lg-20 {
+    margin-bottom: 5rem !important;
+}
+.text-muted {
+    color: #B5B5C3 !important;
+}
+.font-weight-bold {
+    font-weight: 500 !important;
+}
+.pb-3, .py-3 {
+    padding-bottom: 0.75rem !important;
+}
+.pt-3, .py-3 {
+    padding-top: 0.75rem !important;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.mt-3, .my-3 {
+    margin-top: 0.75rem !important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 1.25rem !important;
+}
+a {
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.pl-9, .px-9 {
+    padding-left: 2.25rem !important;
+}
+.pr-9, .px-9 {
+    padding-right: 2.25rem !important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1rem !important;
+}
+.pt-4, .py-4 {
+    padding-top: 1rem !important;
+}
+.btn {
+    outline: none !important;
+    vertical-align: middle;
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.flex-column-auto {
+    flex: none;
+}
+.pad-10{
+ padding:12px;
+}
+
+

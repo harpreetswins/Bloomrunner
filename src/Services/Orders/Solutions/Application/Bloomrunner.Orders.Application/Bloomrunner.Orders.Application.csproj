@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\Request\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\Orders.Data\Orders.Data.csproj" />
+    <ProjectReference Include="..\..\Domain\Bloomrunner.Orders.Domain\Bloomrunner.Orders.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
